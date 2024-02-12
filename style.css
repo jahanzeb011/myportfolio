@@ -1,0 +1,227 @@
+
+header img{
+    width: 175px;
+    height: 150px;
+    margin-left: 500px;
+}
+
+.cont1{
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+.cont1 img{
+    width: 100%;
+    height: 75vh;
+}
+
+.cont2{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(26, 25, 25);
+    padding-left: 120px;
+    padding-top: 75px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+   
+}
+
+.cont2 p{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.cont3{
+    color: white;
+    background-color:  rgb(26, 25, 25);
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.cont3 h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.skill1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.skillcard{
+    width: 20vw;
+    height: 35vh;
+    background-color: rgb(64, 62, 62);
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+.skillcard img{
+    width: 150px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.skillcard p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.skillcard:hover{
+    background-color: rgb(230, 189, 140);
+}
+
+.skill2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 135px;
+}
+
+.skill2 .skillcard img{
+    margin-left: 55px;
+    padding-bottom: 10px;
+}
+
+.skill3{
+    padding-top: 25px;
+    padding-left: 460px;
+}
+
+.skill3 .skillcard img{
+    margin-left: 55px;
+    padding-bottom: 5px;
+}
+
+.cont4{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.cont4 h1{
+    text-align: center;
+    font-weight: 700;
+   
+}
+
+.proj1{
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 35px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.5s ease;
+  }
+
+  .card:hover img {
+    filter: blur(8px);
+  }
+
+  .card .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.10s ease;
+    opacity: 0;
+  }
+
+  .card:hover .content {
+    opacity: 1;
+  }
+
+  .card h1 {
+    margin-top: 0;
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    color: white;
+    font-weight: 600;
+    text-shadow: black 1px;
+
+    
+  }
+
+  .card p {
+    margin-bottom: 10px;
+  }
+
+  .card a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .cont5{
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: white;
+  }
+
+  .cont5 h1{
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 600;
+  }
+
+  .contact1{
+    display: flex;
+  }
+
+  .firsthalf{
+    padding-left: 175px;
+    width: 50%;
+  }
+
+  .firsthalf p{
+     font-size: 28px;
+     margin-bottom: 20px;
+  }
+
+  .firsthalf svg{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .secondhalf{
+    padding-left: 350px;
+    padding-top: 5px;
+  }
+
+  .secondhalf svg{
+    width: 125px;
+    height: 125px;
+  }
+
+  .secondhalf a{
+    color: white;
+  }

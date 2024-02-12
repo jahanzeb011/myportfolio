@@ -1,0 +1,235 @@
+@media (min-width: 992px) and (max-width: 1199px){
+   header img{
+    margin-left: 275px;
+   }
+
+   .cont3{
+      color: white;
+      background-color:  rgb(26, 25, 25);
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 0px;
+      padding-bottom: 50px;
+  }
+
+  
+
+.skillcard img{
+   width: 100px;
+   height: 100px;
+   margin-top: 75px;
+   margin-left: 35px;
+}
+
+.skill2 .skillcard img{
+   margin-left: 35px;
+   padding-bottom: 10px;
+}
+
+.skill3{
+   padding-top: 25px;
+   padding-left: 310px;
+}
+
+.skill3 .skillcard img{
+   margin-left: 35px;
+   padding-bottom: 5px;
+}
+
+.proj1{
+   padding-left: 30px;
+  
+}
+
+.card h1 {
+   left: 35px; 
+ }
+
+ .firsthalf{
+   padding-left: 50px;
+   width: 50%;
+ }
+
+ .secondhalf{
+   padding-left: 250px;
+   padding-top: 5px;
+ }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+   header img{
+    margin-left: 275px;
+   }
+
+   .cont3{
+      color: white;
+      background-color:  rgb(26, 25, 25);
+      padding-top: 50px;
+      padding-left: 30px;
+      padding-right: 0px;
+      padding-bottom: 50px;
+  }
+
+  
+
+.skillcard img{
+   width: 50px;
+   height: 50px;
+   margin-top: 75px;
+   margin-left: 30px;
+}
+
+.skill2 .skillcard img{
+   margin-left: 35px;
+   padding-bottom: 10px;
+}
+
+.skill3{
+   padding-top: 25px;
+   padding-left: 310px;
+}
+
+.skill3 .skillcard img{
+   margin-left: 35px;
+   padding-bottom: 5px;
+}
+
+.proj1{
+   padding-left: 30px;
+  
+}
+
+.card h1 {
+   left: 10px; 
+ }
+
+ .firsthalf{
+   padding-left: 25px;
+   width: 50%;
+ }
+
+ .secondhalf{
+   padding-left: 150px;
+   padding-top: 5px;
+ }
+
+
+
+}
+
+@media (max-width: 575px){
+ header img{
+    margin-left: 0px;
+ }
+
+ .cont1{
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .cont1 img{
+    height: 70vh;
+   
+ }
+
+
+ .cont3{
+  
+   padding-top: 50px;
+   padding-left: 35px;
+   padding-right: 20px;
+  
+}
+ 
+.skill1{
+   display: flex;
+   flex-direction: column;
+   padding-top: 50px;
+   padding-left: 10px;
+}
+
+.skillcard{
+   width: 80vw;
+   height: fit-content;
+   margin-bottom: 25px;
+   padding: 20px;
+   border-radius: 15px;
+   margin-right: 25px;
+}
+
+.skillcard img{
+   margin-top: 35px;
+   margin-left: 60px;
+}
+
+
+
+.skill2{
+   display: flex;
+   flex-direction: column;
+   padding-left: 15px;
+}
+
+.skill2 .skillcard img{
+   margin-left: 55px;
+  
+}
+
+.skill3{
+  
+   padding-left: 15px;
+}
+
+.proj1{
+   padding-left: 45px;
+   padding-top: 50px;
+   display: flex;
+   flex-direction: column;
+}
+
+.card {
+   width: 80vw;
+   height: 50vh;
+   margin-bottom: 25px;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   margin-right: 0px;
+ }
+
+ .card h1 {
+   margin-top: 0;
+   position: absolute;
+   left: 100px;
+   top: 30px;
+   color: white;
+   font-weight: 600;
+   text-shadow: black 1px;
+
+   
+ }
+
+ .contact1{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .firsthalf{
+   padding-left: 35px;
+   width: 90vw;
+ }
+
+ .firsthalf p{
+   font-size: 18px;
+
+ }
+
+ .secondhalf{
+   padding-left: 125px;
+   padding-top: 25px;
+ }
+
+
+
+}
